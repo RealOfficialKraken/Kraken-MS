@@ -1,0 +1,5 @@
+run-android:
+	cd ./app && npm run android
+
+server:
+	. env/Scripts/activate && cd api && python manage.py runserver
